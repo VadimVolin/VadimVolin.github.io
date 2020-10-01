@@ -261,6 +261,33 @@
     <script src="/js/splide.min.js"></script>
     <script src="/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.14/dist/js/splide.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"
+        integrity="sha512-0+SppYGxjfZ+5clBrJbcVIC/984AGub2ahawvvjG+DoaJEWnO7ReppZdthk7HmF/jaiI8gVtpfNM5HgXp16Mgw=="
+        crossorigin="anonymous"></script>
+    <script>
+        $.scrollify({
+            section: "section",
+            sectionName: "section-name",
+            interstitialSection: "",
+            easing: "easeOutExpo",
+            scrollSpeed: 1100,
+            offset: 0,
+            scrollbars: true,
+            standardScrollElements: "",
+            setHeights: false,
+            overflowScroll: true,
+            updateHash: false,
+            touchScroll: true,
+            before: function () { },
+            after: function () { },
+            afterResize: function () { },
+            afterRender: function () { }
+        });
+    </script>
 </body>
 
 </html>

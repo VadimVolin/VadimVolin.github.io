@@ -72,12 +72,6 @@ header {
   border: 1px solid #5e6060;
 }
 
-#home {
-  background: url("/img/home-bg.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 #home .home-gradient {
   width: 100%;
   background: linear-gradient(
